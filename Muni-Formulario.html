@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Metadatos -->
+  <meta charset="utf-8">
+  <meta name="author" content="Dario Lagardo">
+  <meta name="description" content="Portafolio de Desarrollo web,Desarrolado por Dario Lagardo">
+  <meta name="keywords" content="HTML,CSS,JavaScript,React">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <!-- Titulo -->
+  <title>Movilidad Urbana | Secretaria Movilidad Urbana</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="imagenes/logo-secretaría.png">
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!-- Boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- Css -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
+  <style>
+    /* Agregar margen al section de contacto */
+    #contacto {
+      margin: 40px 0;
+      padding: 30px 0;
+    }
+
+    .seccion-titulo {
+      font-size: 1.5rem;
+    }
+
+    @media (max-width: 576px) {
+      .seccion-titulo {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Barra de Navegacion -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <img src="imagenes/logo-secretaría.png" alt="Logo de la Secretaría" width="150" height="40" style="margin-right: 20px;">
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/logo-secretaría.png" width="200" alt="Logo de la Pagina Web" height="70">
+        </a>
+      </div>
+    </div>
+  </nav>
+  <!-- Seccion Hero -->
+  
+  <!-- Sobre Mi -->
+  
+  <section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12 seccion-titulo">
+          ¡Registro en Plataforma Electrónica!
+        </div>
+        <div class="col-12 mt-3">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSd7ngm7DyWh8NlqjlBjWAepgFe-6LxJDReJDNlpMo9sHsei1A/viewform"
+            target="_blank">
+            <button type="button" class="btn btn-outline-primary">
+              Registro
+              <i class="bi bi-envelope-check-fill"></i>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Experiencia -->
+  
+  <!-- Proyectos -->
+  <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <!-- Galeria de Proyectos -->
+    <div class="container text-center proyectos-contenedor">
+      <div class="row">
+        <!-- Proyecto1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto1.png" width="300px" height="200px" alt="Sustentabilidad">
+            <div class="overlay">
+              <p>Bicisenda</p>
+              <div class="iconos-contenedor"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto2.png" width="300px" height="200px" alt="Ciclovia">
+            <div class="overlay">
+              <p>Ciclovia</p>
+              <div class="iconos-contenedor"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto3.png" width="300px" height="400px" alt="Equipamiento">
+            <div class="overlay">
+              <p>Equipamiento</p>
+              <div class="iconos-contenedor"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto4 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto4.png" alt="Innovacion">
+            <div class="overlay">
+              <p>Innovacion</p>
+              <div class="iconos-contenedor"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto5 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto5.png" alt="Compromiso">
+            <div class="overlay">
+              <p>Compromiso</p>
+              <div class="iconos-contenedor"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto6 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto6.png" alt="Inclusivo">
+            <div class="overlay">
+              <p>Inclusivo</p>
+              <div class="iconos-contenedor"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de Pagina -->
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://instagram.com/movilidadurbanaposadas?igshid=NzZlODBkYWE4Ng==" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://api.whatsapp.com/send?phone=3765165654" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+      <a href="mailto:mov.urb.permisos@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    <div class="derechos-de-autor">
+      Secretaria Movilidad Urbana (2023)&#169;
+    </div>
+  </footer>
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
